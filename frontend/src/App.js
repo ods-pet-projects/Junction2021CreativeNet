@@ -1,5 +1,6 @@
 import "./App.css";
 import BarChart from "./components/BarChart";
+import Footer from "./components/footer/Footer";
 import PieChart from "./components/PieChart";
 import Table from "./components/table/Table";
 import TraceChart from "./components/TraceChart";
@@ -12,6 +13,9 @@ function App() {
       </div>
       <header className="App-header">Team CreativeNet</header>
       <p>We are making an ML-based optimiser.</p>
+
+      <Footer />
+
       {/* <TraceChart
         csv_file="equipment_id_train_counts.csv"
         plot_title="Equipment ID train counts"
