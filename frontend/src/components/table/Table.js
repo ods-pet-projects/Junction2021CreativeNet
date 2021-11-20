@@ -61,7 +61,7 @@ const TableComponent = () => {
         <Cards el={el} showTable={showTable} />
       ) : (
         <table className={style.rwd_table}>
-          <thead>
+          <thead className={style.header}>
           <tr>
             <th>ID</th>
             <th className={style.main} onClick={() => sort("probability")}>
@@ -82,7 +82,7 @@ const TableComponent = () => {
           </thead>
           <tbody>
           
-          {data.filter(d => Object.values(d).some(c => c.includes(tableFilter))).map((el) => {
+          {data.filter(d => Object.values(d).filter(v => !v.startsWith("ga")).some(c => c.includes(tableFilter))).map((el) => {
             return (
               <tr key={el.probability} className={style.onMouseEnter}>
                 <th>{el.id}</th>
