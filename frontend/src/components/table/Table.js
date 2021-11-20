@@ -3,6 +3,8 @@ import axios from "axios";
 import Cards from "../cards/Cards";
 import style from "./Table.module.css";
 
+import ReactTooltip from 'react-tooltip';
+
 const TableComponent = () => {
   const [data, setData] = useState([]);
   const [showCards, setShowCards] = useState(false);
@@ -56,25 +58,37 @@ const TableComponent = () => {
 
   return (
     <div>
-      <p><input value={tableFilter ||""} onChange={(e) => {handleFilter(e.target.value)}} className={style.filter_input} type="text" placeholder="Type to filter the table…"/></p>
+      <ReactTooltip />
+      <p>
+        <input
+          value={tableFilter || ""}
+          onChange={(e) => {
+            handleFilter(e.target.value);
+          }}
+          className={style.filter_input}
+          type="text"
+          placeholder="Type to filter the table…"
+        />
+      </p>
+
       {showCards ? (
         <Cards el={el} showTable={showTable} />
       ) : (
         <table className={style.rwd_table}>
           <thead className={style.header}>
           <tr className={style.header_row}>
-            <th className={style.main}>REPAIR ID</th>
-            <th className={style.main} onClick={() => sort("sensor_quality")}>
+            <th className={style.main}>REPAIR TASK ID</th>
+            <th data-tip="Our estimation of sensor quality calculated as positive feedback divided by total feedback. A higher sensor quality score is better." className={style.main} onClick={() => sort("sensor_quality")}>
               Sensor quality {property === "sensor_quality" ? (onSort ? '↓': '↑'  ): ''}
             </th>
-            <th className={style.main} onClick={() => sort("loading")}>
-              Loading {property === "loading" ? (onSort ? '↓': '↑'  ): ''}
+            <th data-tip="Load category - the higher the load category, the heavier the load that the lift can carry." className={style.main} onClick={() => sort("loading")}>
+              Load {property === "loading" ? (onSort ? '↓': '↑'  ): ''}
             </th>
-            <th className={style.main} onClick={() => sort("speed")}>
+            <th data-tip="Speed category - the higher the speed category, the faster the lift can go." className={style.main} onClick={() => sort("speed")}>
               Speed {property === "speed" ? (onSort ? '↓': '↑'  ): ''}
             </th>
-            <th className={style.main} onClick={() => sort("probability")}>
-              PRIORITY SCORE {property === "probability" ? (onSort ? '↓': '↑'  ): ''}
+            <th data-tip="The probability of positive feedback from our ML model (the higher it is, the higher the suggested priority)." className={style.main} onClick={() => sort("probability")}>
+              POSITIVE FEEDBACK {property === "probability" ? (onSort ? '↓': '↑'  ): ''}
             </th>
             <th className={style.main}>Action</th>
             <th className={style.main}>Details</th>
