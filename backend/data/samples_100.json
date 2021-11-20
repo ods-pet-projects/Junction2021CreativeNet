@@ -1,0 +1,902 @@
+[
+  {
+    "id": "ele0030053",
+    "probability": "0.8883406824917287",
+    "action_type": "art01",
+    "sensor_quality": "0.6817229639907736",
+    "loading": "6",
+    "area_id": "ga00000073",
+    "speed": "7"
+  },
+  {
+    "id": "ele0030057",
+    "probability": "0.9328419031226675",
+    "action_type": "art01",
+    "sensor_quality": "0.7319277696277577",
+    "loading": "7",
+    "area_id": "ga00000061",
+    "speed": "4"
+  },
+  {
+    "id": "ele0030180",
+    "probability": "0.4075687817728201",
+    "action_type": "art01",
+    "sensor_quality": "0.9614228952646033",
+    "loading": "3",
+    "area_id": "ga00000600",
+    "speed": "4"
+  },
+  {
+    "id": "ele0030224",
+    "probability": "0.8844343583749905",
+    "action_type": "art01",
+    "sensor_quality": "0.7817419416663755",
+    "loading": "4",
+    "area_id": "ga00000136",
+    "speed": "5"
+  },
+  {
+    "id": "ele0030580",
+    "probability": "0.2887044951356682",
+    "action_type": "art01",
+    "sensor_quality": "0.9301328474803485",
+    "loading": "4",
+    "area_id": "ga00000529",
+    "speed": "6"
+  },
+  {
+    "id": "ele0030691",
+    "probability": "0.4772093197776458",
+    "action_type": "art02",
+    "sensor_quality": "0.9350156239398298",
+    "loading": "6",
+    "area_id": "ga00000652",
+    "speed": "4"
+  },
+  {
+    "id": "ele0030714",
+    "probability": "0.049798721427073755",
+    "action_type": "art01",
+    "sensor_quality": "0.09835061185181126",
+    "loading": "6",
+    "area_id": "ga00000375",
+    "speed": "5"
+  },
+  {
+    "id": "ele0030758",
+    "probability": "0.47894080729807187",
+    "action_type": "art03",
+    "sensor_quality": "0.08298171932096421",
+    "loading": "3",
+    "area_id": "ga00001096",
+    "speed": "4"
+  },
+  {
+    "id": "ele0030830",
+    "probability": "0.991948444064336",
+    "action_type": "art02",
+    "sensor_quality": "0.6193895852031025",
+    "loading": "6",
+    "area_id": "ga00001069",
+    "speed": "7"
+  },
+  {
+    "id": "ele0030911",
+    "probability": "0.5949910028622788",
+    "action_type": "art01",
+    "sensor_quality": "0.4001772603923429",
+    "loading": "7",
+    "area_id": "ga00000092",
+    "speed": "8"
+  },
+  {
+    "id": "ele0030994",
+    "probability": "0.6388440254794309",
+    "action_type": "art01",
+    "sensor_quality": "0.9709538165699282",
+    "loading": "7",
+    "area_id": "ga00000209",
+    "speed": "5"
+  },
+  {
+    "id": "ele0030994",
+    "probability": "0.6788401573262828",
+    "action_type": "art01",
+    "sensor_quality": "0.8872943188085994",
+    "loading": "7",
+    "area_id": "ga00000209",
+    "speed": "5"
+  },
+  {
+    "id": "ele0031258",
+    "probability": "0.041526897457718204",
+    "action_type": "art01",
+    "sensor_quality": "0.5364615894953495",
+    "loading": "4",
+    "area_id": "ga00001272",
+    "speed": "5"
+  },
+  {
+    "id": "ele0031482",
+    "probability": "0.12564023420750925",
+    "action_type": "art01",
+    "sensor_quality": "0.3285488806693565",
+    "loading": "3",
+    "area_id": "ga00000366",
+    "speed": "1"
+  },
+  {
+    "id": "ele0031552",
+    "probability": "0.7920932159575607",
+    "action_type": "art02",
+    "sensor_quality": "0.331083851588163",
+    "loading": "7",
+    "area_id": "ga00000573",
+    "speed": "4"
+  },
+  {
+    "id": "ele0031787",
+    "probability": "0.37605119907511897",
+    "action_type": "art03",
+    "sensor_quality": "0.7823182808539254",
+    "loading": "3",
+    "area_id": "ga00000650",
+    "speed": "5"
+  },
+  {
+    "id": "ele0031953",
+    "probability": "0.8497939179503627",
+    "action_type": "art01",
+    "sensor_quality": "0.4519861674255896",
+    "loading": "7",
+    "area_id": "ga00000586",
+    "speed": "6"
+  },
+  {
+    "id": "ele0032156",
+    "probability": "0.5101908132884263",
+    "action_type": "art01",
+    "sensor_quality": "0.7841219956393995",
+    "loading": "3",
+    "area_id": "ga00000294",
+    "speed": "4"
+  },
+  {
+    "id": "ele0032156",
+    "probability": "0.69313732028917",
+    "action_type": "art03",
+    "sensor_quality": "0.8831546885186609",
+    "loading": "3",
+    "area_id": "ga00000294",
+    "speed": "4"
+  },
+  {
+    "id": "ele0032165",
+    "probability": "0.22832901486652957",
+    "action_type": "art01",
+    "sensor_quality": "0.7544341701084568",
+    "loading": "5",
+    "area_id": "ga00000275",
+    "speed": "5"
+  },
+  {
+    "id": "ele0032236",
+    "probability": "0.38151907137023855",
+    "action_type": "art02",
+    "sensor_quality": "0.09277275032357324",
+    "loading": "7",
+    "area_id": "ga00000738",
+    "speed": "7"
+  },
+  {
+    "id": "ele0032355",
+    "probability": "0.837864839217508",
+    "action_type": "art02",
+    "sensor_quality": "0.03206385439325932",
+    "loading": "8",
+    "area_id": "ga00000547",
+    "speed": "4"
+  },
+  {
+    "id": "ele0032645",
+    "probability": "0.42570108512454297",
+    "action_type": "art02",
+    "sensor_quality": "0.44586031778737567",
+    "loading": "4",
+    "area_id": "ga00000847",
+    "speed": "4"
+  },
+  {
+    "id": "ele0032692",
+    "probability": "0.6638834927100221",
+    "action_type": "art01",
+    "sensor_quality": "0.5023784542473536",
+    "loading": "4",
+    "area_id": "ga00000345",
+    "speed": "4"
+  },
+  {
+    "id": "ele0032839",
+    "probability": "0.4673354348904688",
+    "action_type": "art01",
+    "sensor_quality": "0.05717300211217746",
+    "loading": "6",
+    "area_id": "ga00000136",
+    "speed": "6"
+  },
+  {
+    "id": "ele0033071",
+    "probability": "0.9622123928711169",
+    "action_type": "art01",
+    "sensor_quality": "0.6402769933097332",
+    "loading": "6",
+    "area_id": "ga00000955",
+    "speed": "6"
+  },
+  {
+    "id": "ele0033098",
+    "probability": "0.3889194199382099",
+    "action_type": "art01",
+    "sensor_quality": "0.4436247383688189",
+    "loading": "6",
+    "area_id": "ga00001058",
+    "speed": "7"
+  },
+  {
+    "id": "ele0033251",
+    "probability": "0.7656343441366419",
+    "action_type": "art01",
+    "sensor_quality": "0.4506354847083035",
+    "loading": "1",
+    "area_id": "ga00001150",
+    "speed": "3"
+  },
+  {
+    "id": "ele0033328",
+    "probability": "0.6981184743080383",
+    "action_type": "art02",
+    "sensor_quality": "0.10289404200170416",
+    "loading": "6",
+    "area_id": "ga00000531",
+    "speed": "6"
+  },
+  {
+    "id": "ele0033376",
+    "probability": "0.21564717957691082",
+    "action_type": "art02",
+    "sensor_quality": "0.7648981822329528",
+    "loading": "7",
+    "area_id": "ga00000573",
+    "speed": "4"
+  },
+  {
+    "id": "ele0033731",
+    "probability": "0.03381659916712909",
+    "action_type": "art02",
+    "sensor_quality": "0.4156930596483549",
+    "loading": "6",
+    "area_id": "ga00000251",
+    "speed": "4"
+  },
+  {
+    "id": "ele0033731",
+    "probability": "0.3659612379835957",
+    "action_type": "art02",
+    "sensor_quality": "0.00426902299707943",
+    "loading": "6",
+    "area_id": "ga00000251",
+    "speed": "4"
+  },
+  {
+    "id": "ele0033910",
+    "probability": "0.9295849819869737",
+    "action_type": "art01",
+    "sensor_quality": "0.259953603778031",
+    "loading": "4",
+    "area_id": "ga00000545",
+    "speed": "4"
+  },
+  {
+    "id": "ele0033950",
+    "probability": "0.33852793592325714",
+    "action_type": "art02",
+    "sensor_quality": "0.5522507930600264",
+    "loading": "7",
+    "area_id": "ga00000138",
+    "speed": "5"
+  },
+  {
+    "id": "ele0034147",
+    "probability": "0.8920048761410339",
+    "action_type": "art01",
+    "sensor_quality": "0.6173716153293876",
+    "loading": "6",
+    "area_id": "ga00000955",
+    "speed": "6"
+  },
+  {
+    "id": "ele0034147",
+    "probability": "0.7388023940813574",
+    "action_type": "art01",
+    "sensor_quality": "0.01913590070178106",
+    "loading": "6",
+    "area_id": "ga00000955",
+    "speed": "6"
+  },
+  {
+    "id": "ele0034147",
+    "probability": "0.8781671221344323",
+    "action_type": "art01",
+    "sensor_quality": "0.9610574320463855",
+    "loading": "6",
+    "area_id": "ga00000955",
+    "speed": "6"
+  },
+  {
+    "id": "ele0034268",
+    "probability": "0.069660159217655",
+    "action_type": "art01",
+    "sensor_quality": "0.9756107171976717",
+    "loading": "7",
+    "area_id": "ga00000803",
+    "speed": "6"
+  },
+  {
+    "id": "ele0034692",
+    "probability": "0.9622696918589131",
+    "action_type": "art03",
+    "sensor_quality": "0.42367555386759037",
+    "loading": "6",
+    "area_id": "ga00000162",
+    "speed": "5"
+  },
+  {
+    "id": "ele0034692",
+    "probability": "0.8136269201428575",
+    "action_type": "art01",
+    "sensor_quality": "0.45253550709846657",
+    "loading": "6",
+    "area_id": "ga00000162",
+    "speed": "5"
+  },
+  {
+    "id": "ele0034767",
+    "probability": "0.954841644869067",
+    "action_type": "art01",
+    "sensor_quality": "0.14650329088502667",
+    "loading": "7",
+    "area_id": "ga00000813",
+    "speed": "7"
+  },
+  {
+    "id": "ele0035028",
+    "probability": "0.5734129684718734",
+    "action_type": "art01",
+    "sensor_quality": "0.9054659290000663",
+    "loading": "6",
+    "area_id": "ga00000312",
+    "speed": "6"
+  },
+  {
+    "id": "ele0035028",
+    "probability": "0.4918542375262318",
+    "action_type": "art01",
+    "sensor_quality": "0.46671183893346513",
+    "loading": "6",
+    "area_id": "ga00000312",
+    "speed": "6"
+  },
+  {
+    "id": "ele0035140",
+    "probability": "0.4900593812442464",
+    "action_type": "art02",
+    "sensor_quality": "0.7701190539055994",
+    "loading": "4",
+    "area_id": "ga00000514",
+    "speed": "5"
+  },
+  {
+    "id": "ele0035269",
+    "probability": "0.30897962758855235",
+    "action_type": "art01",
+    "sensor_quality": "0.5219290140982142",
+    "loading": "4",
+    "area_id": "ga00000136",
+    "speed": "5"
+  },
+  {
+    "id": "ele0035360",
+    "probability": "0.7097405136333949",
+    "action_type": "art02",
+    "sensor_quality": "0.5699073442877824",
+    "loading": "5",
+    "area_id": "ga00000275",
+    "speed": "5"
+  },
+  {
+    "id": "ele0035360",
+    "probability": "0.016354350390587746",
+    "action_type": "art01",
+    "sensor_quality": "0.2012895187570004",
+    "loading": "5",
+    "area_id": "ga00000275",
+    "speed": "5"
+  },
+  {
+    "id": "ele0035510",
+    "probability": "0.7518409391140519",
+    "action_type": "art03",
+    "sensor_quality": "0.8391963371281721",
+    "loading": "3",
+    "area_id": "ga00000650",
+    "speed": "5"
+  },
+  {
+    "id": "ele0035911",
+    "probability": "0.9050113566709558",
+    "action_type": "art02",
+    "sensor_quality": "0.9791264196718378",
+    "loading": "8",
+    "area_id": "ga00000740",
+    "speed": "1"
+  },
+  {
+    "id": "ele0036025",
+    "probability": "0.06011388091313885",
+    "action_type": "art01",
+    "sensor_quality": "0.09324410438215636",
+    "loading": "7",
+    "area_id": "ga00000655",
+    "speed": "5"
+  },
+  {
+    "id": "ele0036242",
+    "probability": "0.6993989501916442",
+    "action_type": "art02",
+    "sensor_quality": "0.7131119956175891",
+    "loading": "6",
+    "area_id": "ga00000710",
+    "speed": "4"
+  },
+  {
+    "id": "ele0036280",
+    "probability": "0.5886004242178475",
+    "action_type": "art01",
+    "sensor_quality": "0.5107275640901912",
+    "loading": "6",
+    "area_id": "ga00000347",
+    "speed": "6"
+  },
+  {
+    "id": "ele0036356",
+    "probability": "0.4440579272885533",
+    "action_type": "art01",
+    "sensor_quality": "0.988794798359392",
+    "loading": "6",
+    "area_id": "ga00000136",
+    "speed": "6"
+  },
+  {
+    "id": "ele0036423",
+    "probability": "0.09830780088374547",
+    "action_type": "art01",
+    "sensor_quality": "0.3446562991931543",
+    "loading": "6",
+    "area_id": "ga00000136",
+    "speed": "6"
+  },
+  {
+    "id": "ele0036689",
+    "probability": "0.3834570758749807",
+    "action_type": "art02",
+    "sensor_quality": "0.9851236691498529",
+    "loading": "7",
+    "area_id": "ga00000008",
+    "speed": "5"
+  },
+  {
+    "id": "ele0036689",
+    "probability": "0.4299778992674248",
+    "action_type": "art02",
+    "sensor_quality": "0.2532570588557137",
+    "loading": "7",
+    "area_id": "ga00000008",
+    "speed": "5"
+  },
+  {
+    "id": "ele0037040",
+    "probability": "0.8506286214613935",
+    "action_type": "art01",
+    "sensor_quality": "0.7174158568291065",
+    "loading": "4",
+    "area_id": "ga00001208",
+    "speed": "4"
+  },
+  {
+    "id": "ele0037040",
+    "probability": "0.07671658671263404",
+    "action_type": "art01",
+    "sensor_quality": "0.004681344749102534",
+    "loading": "4",
+    "area_id": "ga00001208",
+    "speed": "4"
+  },
+  {
+    "id": "ele0037054",
+    "probability": "0.4029972941692642",
+    "action_type": "art01",
+    "sensor_quality": "0.7653834584268516",
+    "loading": "6",
+    "area_id": "ga00001172",
+    "speed": "6"
+  },
+  {
+    "id": "ele0037208",
+    "probability": "0.8987211136198302",
+    "action_type": "art01",
+    "sensor_quality": "0.43975503758019285",
+    "loading": "6",
+    "area_id": "ga00001122",
+    "speed": "6"
+  },
+  {
+    "id": "ele0037412",
+    "probability": "0.10433149674954911",
+    "action_type": "art02",
+    "sensor_quality": "0.5371629914110693",
+    "loading": "5",
+    "area_id": "ga00001127",
+    "speed": "4"
+  },
+  {
+    "id": "ele0037422",
+    "probability": "0.1483473623358572",
+    "action_type": "art01",
+    "sensor_quality": "0.4265595024886335",
+    "loading": "6",
+    "area_id": "ga00000375",
+    "speed": "5"
+  },
+  {
+    "id": "ele0037818",
+    "probability": "0.23258949710343646",
+    "action_type": "art01",
+    "sensor_quality": "0.6116480130861078",
+    "loading": "6",
+    "area_id": "ga00000955",
+    "speed": "6"
+  },
+  {
+    "id": "ele0037818",
+    "probability": "0.0428580735777323",
+    "action_type": "art01",
+    "sensor_quality": "0.7430859811054942",
+    "loading": "6",
+    "area_id": "ga00000955",
+    "speed": "6"
+  },
+  {
+    "id": "ele0038158",
+    "probability": "0.4948624001887062",
+    "action_type": "art03",
+    "sensor_quality": "0.5356088156926176",
+    "loading": "3",
+    "area_id": "ga00000119",
+    "speed": "4"
+  },
+  {
+    "id": "ele0038304",
+    "probability": "0.333095138863967",
+    "action_type": "art01",
+    "sensor_quality": "0.6455556888291625",
+    "loading": "8",
+    "area_id": "ga00000075",
+    "speed": "4"
+  },
+  {
+    "id": "ele0038419",
+    "probability": "0.686267245807277",
+    "action_type": "art01",
+    "sensor_quality": "0.14732785240016466",
+    "loading": "3",
+    "area_id": "ga00000600",
+    "speed": "3"
+  },
+  {
+    "id": "ele0038421",
+    "probability": "0.956487707117054",
+    "action_type": "art01",
+    "sensor_quality": "0.25878603491639474",
+    "loading": "6",
+    "area_id": "ga00000647",
+    "speed": "6"
+  },
+  {
+    "id": "ele0038757",
+    "probability": "0.5324882745438528",
+    "action_type": "art02",
+    "sensor_quality": "0.193405566271171",
+    "loading": "6",
+    "area_id": "ga00000418",
+    "speed": "8"
+  },
+  {
+    "id": "ele0038925",
+    "probability": "0.5933995250988174",
+    "action_type": "art02",
+    "sensor_quality": "0.04125693624582405",
+    "loading": "6",
+    "area_id": "ga00001014",
+    "speed": "4"
+  },
+  {
+    "id": "ele0038992",
+    "probability": "0.8280518098429978",
+    "action_type": "art01",
+    "sensor_quality": "0.9329703992649824",
+    "loading": "6",
+    "area_id": "ga00000631",
+    "speed": "8"
+  },
+  {
+    "id": "ele0038992",
+    "probability": "0.49810549026067086",
+    "action_type": "art01",
+    "sensor_quality": "0.6993010782128876",
+    "loading": "6",
+    "area_id": "ga00000631",
+    "speed": "8"
+  },
+  {
+    "id": "ele0039317",
+    "probability": "0.4416895268176818",
+    "action_type": "art02",
+    "sensor_quality": "0.649065084835998",
+    "loading": "2",
+    "area_id": "ga00000666",
+    "speed": "4"
+  },
+  {
+    "id": "ele0039520",
+    "probability": "0.4579964122941601",
+    "action_type": "art01",
+    "sensor_quality": "0.8620268852728346",
+    "loading": "3",
+    "area_id": "ga00000632",
+    "speed": "3"
+  },
+  {
+    "id": "ele0039647",
+    "probability": "0.057049085147624856",
+    "action_type": "art01",
+    "sensor_quality": "0.8232839744322763",
+    "loading": "1",
+    "area_id": "ga00000376",
+    "speed": "3"
+  },
+  {
+    "id": "ele0039647",
+    "probability": "0.7098003597307895",
+    "action_type": "art01",
+    "sensor_quality": "0.08544942351956197",
+    "loading": "1",
+    "area_id": "ga00000376",
+    "speed": "3"
+  },
+  {
+    "id": "ele0039971",
+    "probability": "0.36211718460292686",
+    "action_type": "art01",
+    "sensor_quality": "0.17431668991139526",
+    "loading": "7",
+    "area_id": "ga00000810",
+    "speed": "5"
+  },
+  {
+    "id": "ele0030015",
+    "probability": "0.16203835413947398",
+    "action_type": "art01",
+    "sensor_quality": "0.8074167401179141",
+    "loading": "7",
+    "area_id": "ga00001161",
+    "speed": "6"
+  },
+  {
+    "id": "ele0030061",
+    "probability": "0.5913661126027521",
+    "action_type": "art01",
+    "sensor_quality": "0.5586047184439403",
+    "loading": "3",
+    "area_id": "ga00000118",
+    "speed": "5"
+  },
+  {
+    "id": "ele0030170",
+    "probability": "0.09580353165133826",
+    "action_type": "art01",
+    "sensor_quality": "0.18527181226513412",
+    "loading": "6",
+    "area_id": "ga00000494",
+    "speed": "6"
+  },
+  {
+    "id": "ele0030202",
+    "probability": "0.7679737225555824",
+    "action_type": "art02",
+    "sensor_quality": "0.8315902382938416",
+    "loading": "2",
+    "area_id": "ga00001038",
+    "speed": "4"
+  },
+  {
+    "id": "ele0030202",
+    "probability": "0.29694242828685113",
+    "action_type": "art02",
+    "sensor_quality": "0.01826738616289192",
+    "loading": "2",
+    "area_id": "ga00001038",
+    "speed": "4"
+  },
+  {
+    "id": "ele0030281",
+    "probability": "0.6732040265870718",
+    "action_type": "art01",
+    "sensor_quality": "0.1777457469091277",
+    "loading": "4",
+    "area_id": "ga00000810",
+    "speed": "5"
+  },
+  {
+    "id": "ele0030626",
+    "probability": "0.5822099260788288",
+    "action_type": "art01",
+    "sensor_quality": "0.3537177794856018",
+    "loading": "7",
+    "area_id": "ga00001115",
+    "speed": "8"
+  },
+  {
+    "id": "ele0030939",
+    "probability": "0.46500311394774585",
+    "action_type": "art03",
+    "sensor_quality": "0.6959606079937601",
+    "loading": "8",
+    "area_id": "ga00000921",
+    "speed": "7"
+  },
+  {
+    "id": "ele0031226",
+    "probability": "0.8313366725408929",
+    "action_type": "art02",
+    "sensor_quality": "0.26127497955313617",
+    "loading": "3",
+    "area_id": "ga00000171",
+    "speed": "4"
+  },
+  {
+    "id": "ele0031226",
+    "probability": "0.004958445794168487",
+    "action_type": "art02",
+    "sensor_quality": "0.10494108160032778",
+    "loading": "3",
+    "area_id": "ga00000171",
+    "speed": "4"
+  },
+  {
+    "id": "ele0031255",
+    "probability": "0.6782231950529137",
+    "action_type": "art01",
+    "sensor_quality": "0.9601215886004179",
+    "loading": "6",
+    "area_id": "ga00000810",
+    "speed": "5"
+  },
+  {
+    "id": "ele0031300",
+    "probability": "0.7301777054612784",
+    "action_type": "art01",
+    "sensor_quality": "0.3097961491669936",
+    "loading": "1",
+    "area_id": "ga00000545",
+    "speed": "3"
+  },
+  {
+    "id": "ele0031438",
+    "probability": "0.022455131133428008",
+    "action_type": "art01",
+    "sensor_quality": "0.5716757612304985",
+    "loading": "3",
+    "area_id": "ga00000171",
+    "speed": "6"
+  },
+  {
+    "id": "ele0031523",
+    "probability": "0.15430362922775942",
+    "action_type": "art01",
+    "sensor_quality": "0.369289160797977",
+    "loading": "4",
+    "area_id": "ga00000810",
+    "speed": "5"
+  },
+  {
+    "id": "ele0031787",
+    "probability": "0.09865507979941568",
+    "action_type": "art03",
+    "sensor_quality": "0.9251698282555698",
+    "loading": "3",
+    "area_id": "ga00000650",
+    "speed": "5"
+  },
+  {
+    "id": "ele0031801",
+    "probability": "0.7102383172707887",
+    "action_type": "art03",
+    "sensor_quality": "0.602905053719228",
+    "loading": "2",
+    "area_id": "ga00000526",
+    "speed": "6"
+  },
+  {
+    "id": "ele0031983",
+    "probability": "0.7458074171531968",
+    "action_type": "art01",
+    "sensor_quality": "0.014039766689700195",
+    "loading": "6",
+    "area_id": "ga00000246",
+    "speed": "6"
+  },
+  {
+    "id": "ele0032191",
+    "probability": "0.1595698013881479",
+    "action_type": "art01",
+    "sensor_quality": "0.6936691459296733",
+    "loading": "6",
+    "area_id": "ga00001067",
+    "speed": "7"
+  },
+  {
+    "id": "ele0032624",
+    "probability": "0.7181424552760364",
+    "action_type": "art01",
+    "sensor_quality": "0.2428917797168494",
+    "loading": "4",
+    "area_id": "ga00000572",
+    "speed": "6"
+  },
+  {
+    "id": "ele0032626",
+    "probability": "0.13131428612244567",
+    "action_type": "art01",
+    "sensor_quality": "0.826078946722928",
+    "loading": "3",
+    "area_id": "ga00001150",
+    "speed": "4"
+  },
+  {
+    "id": "ele0033627",
+    "probability": "0.2931042467636562",
+    "action_type": "art01",
+    "sensor_quality": "0.4409583239165076",
+    "loading": "7",
+    "area_id": "ga00000523",
+    "speed": "7"
+  },
+  {
+    "id": "ele0033627",
+    "probability": "0.5500675948913211",
+    "action_type": "art01",
+    "sensor_quality": "0.6446723670421816",
+    "loading": "7",
+    "area_id": "ga00000523",
+    "speed": "7"
+  },
+  {
+    "id": "ele0033638",
+    "probability": "0.4468472950201915",
+    "action_type": "art01",
+    "sensor_quality": "0.2798753155692022",
+    "loading": "8",
+    "area_id": "ga00000810",
+    "speed": "1"
+  }
+]
