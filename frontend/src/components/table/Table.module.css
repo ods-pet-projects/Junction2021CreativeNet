@@ -1,0 +1,23 @@
+.button {
+  width: 80px;
+  height: 30px;
+  display: block;
+  background-color: rgb(245, 207, 137);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: orange;
+}
+
+.main {
+}
+.main:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.onMouseEnter:hover {
+  background-color: orange;
+}

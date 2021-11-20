@@ -1,7 +1,7 @@
 import "./App.css";
 import BarChart from "./components/BarChart";
 import PieChart from "./components/PieChart";
-import Table from "./components/Table";
+import Table from "./components/table/Table";
 import TraceChart from "./components/TraceChart";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       </div>
       <header className="App-header">Team CreativeNet</header>
       <p>We are making an ML-based optimiser.</p>
-      <TraceChart
+      {/* <TraceChart
         csv_file="equipment_id_train_counts.csv"
         plot_title="Equipment ID train counts"
         x_label="Equipment number (in a series)"
@@ -47,7 +47,7 @@ function App() {
       <p>
         For now, another fake plot (for which we have not found real data yet):
       </p>
-      <BarChart />
+      <BarChart /> */}
     </div>
   );
 }
