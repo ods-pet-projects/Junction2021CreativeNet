@@ -54,7 +54,7 @@ const TableComponent = () => {
       ) : (
         <table class="rwd-table">
           <tr>
-            <th>ID</th>
+            <th className={style.main}>ID</th>
             <th className={style.main} onClick={() => sort("probability")}>
               Probability
             </th>
@@ -67,8 +67,8 @@ const TableComponent = () => {
             <th className={style.main} onClick={() => sort("speed")}>
               Speed
             </th>
-            <th>Action</th>
-            <th>Details</th>
+            <th className={style.main}>Action</th>
+            <th className={style.main}>Details</th>
           </tr>
           {data.map((el) => {
             return (

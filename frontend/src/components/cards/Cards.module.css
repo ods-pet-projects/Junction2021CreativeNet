@@ -9,9 +9,18 @@
   box-shadow: 1px 1px 13px 3px rgba(34, 60, 80, 0.2);
 
   margin-bottom: 20px;
-  margin-left: 30px;
+  /* margin-left: 30px; */
   padding: 30px;
 }
+
+@media screen and (min-width: 1024px) {
+  .moviCard {
+    margin-bottom: 0px;
+    min-width: 600px;
+    margin-left: 0px;
+  }
+}
+
 .moviCard__picture {
   border-radius: 5px 5px 0 0;
   width: 280px;
@@ -56,10 +65,46 @@
   background-color: rgb(245, 207, 137);
   border-radius: 10px;
   cursor: pointer;
-  margin-left: 300px;
+  margin-left: 200px;
   font-size: 20px;
 }
 
 .button:hover {
   background-color: orange;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+  .flex {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.cardImg {
+  -webkit-box-shadow: 1px 1px 13px 3px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 1px 1px 13px 3px rgba(34, 60, 80, 0.2);
+  box-shadow: 1px 1px 13px 3px rgba(34, 60, 80, 0.2);
+  width: 100%;
+  /* height: 80%; */
+  /* background-color: orange; */
+  /* margin-left: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.img {
+  width: 100%;
+  /* height: 100%; */
+}
+
+@media screen and (min-width: 1024px) {
+  .cardImg {
+   margin-left: 20px; 
+  }
 }
