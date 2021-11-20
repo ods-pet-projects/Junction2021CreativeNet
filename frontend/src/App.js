@@ -1,11 +1,15 @@
 import "./App.css";
 import BarChart from "./components/BarChart";
 import PieChart from "./components/PieChart";
+import Table from "./components/Table";
 import TraceChart from "./components/TraceChart";
 
 function App() {
   return (
     <div className="App">
+      <div>
+        <Table />
+      </div>
       <header className="App-header">Team CreativeNet</header>
       <p>We are making an ML-based optimiser.</p>
       <TraceChart
