@@ -16,7 +16,7 @@
   padding-right: 1rem;
 }
 
-.main:hover {
+.main:not(:first-child):not(:nth-child(6)):not(:last-child):hover {
   cursor: pointer;
   transform: scale(1.2);
 }
@@ -113,10 +113,22 @@
 }
 
 .rwd_table td {
-  padding-left: 40px;
+
 }
 
 .filter_input {
   font-size: 20px;
+  margin-top: 1rem;
   margin-bottom: 2rem;
+  border: 1px solid #f0f0f0;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.priority_score {
+  background: #F6F1D1;
+}
+
+.header_row {
+  background: #CFD7C7;
 }

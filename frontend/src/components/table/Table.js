@@ -62,19 +62,19 @@ const TableComponent = () => {
       ) : (
         <table className={style.rwd_table}>
           <thead className={style.header}>
-          <tr>
-            <th className={style.main}>ID</th>
-            <th className={style.main} onClick={() => sort("probability")}>
-              Probability
-            </th>
+          <tr className={style.header_row}>
+            <th className={style.main}>REPAIR ID</th>
             <th className={style.main} onClick={() => sort("sensor_quality")}>
-              Sensor quality
+              Sensor quality {property === "sensor_quality" ? (onSort ? '↓': '↑'  ): ''}
             </th>
             <th className={style.main} onClick={() => sort("loading")}>
-              Loading
+              Loading {property === "loading" ? (onSort ? '↓': '↑'  ): ''}
             </th>
             <th className={style.main} onClick={() => sort("speed")}>
-              Speed
+              Speed {property === "speed" ? (onSort ? '↓': '↑'  ): ''}
+            </th>
+            <th className={style.main} onClick={() => sort("probability")}>
+              PRIORITY SCORE {property === "probability" ? (onSort ? '↓': '↑'  ): ''}
             </th>
             <th className={style.main}>Action</th>
             <th className={style.main}>Details</th>
@@ -85,22 +85,22 @@ const TableComponent = () => {
           {data.filter(d => Object.values(d).filter(v => !v.startsWith("ga")).some(c => c.includes(tableFilter))).map((el) => {
             return (
               <tr key={el.probability} className={style.onMouseEnter}>
-                <th>{el.id}</th>
-                <th>{Number(el.probability).toFixed(2)}</th>
-                <th>{Number(el.sensor_quality).toFixed(2)}</th>
-                <th>{el.loading}</th>
-                <th>{el.speed}</th>
-                <th>
-                  <button className={style.button_action}>Agree</button>
-                </th>
-                <th>
-                  <button
-                    className={style.button_details}
-                    onClick={() => getDetails(el)}
-                  >
-                    Details
-                  </button>
-                </th>
+               <td>{el.id}</td>
+<td>{Number(el.sensor_quality).toFixed(2)}</td>
+<td>{el.loading}</td>
+<td>{el.speed}</td>
+<td className={style.priority_score}>{Number(el.probability).toFixed(2)}</td>
+<td>
+  <button className={style.button_action}>Agree</button>
+</td>
+<td>
+  <button
+    className={style.button_details}
+    onClick={() => getDetails(el)}
+  >
+    Details
+  </button>
+</td>
               </tr>
             );
           })}
