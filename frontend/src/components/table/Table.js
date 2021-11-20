@@ -56,7 +56,7 @@ const TableComponent = () => {
 
   return (
     <div>
-      <p><input value={tableFilter ||""} onChange={(e) => {handleFilter(e.target.value)}} className={style.filter_input} type="text" placeholder="Type anything to filter the table…"/></p>
+      <p><input value={tableFilter ||""} onChange={(e) => {handleFilter(e.target.value)}} className={style.filter_input} type="text" placeholder="Type to filter the table…"/></p>
       {showCards ? (
         <Cards el={el} showTable={showTable} />
       ) : (

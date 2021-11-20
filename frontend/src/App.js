@@ -8,11 +8,13 @@ import TraceChart from "./components/TraceChart";
 function App() {
   return (
     <div className="App">
+      <header className="App-header">
+        <a href="/"><img src="/logo.png" alt="CreativeNet: ML based optimiser for lift repair works" /></a>
+      </header>
+
       <div>
         <Table />
       </div>
-      <header className="App-header">Team CreativeNet</header>
-      <p>We are making an ML-based optimiser.</p>
 
       <Footer />
 
