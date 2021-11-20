@@ -1,9 +1,15 @@
 import flask
+import os
 import json
 from flask import Flask, jsonify
 import pandas as pd
-from models import kone_dir
 from flask_cors import CORS
+
+if os.path.exists('/home/junc/mlcup/kone'):
+    kone_dir = '/home/junc/mlcup/kone'
+else:
+    kone_dir = '/Users/o/PycharmProjects/Junction2021CreativeNet/kone_dir'
+
 
 app = Flask(__name__)
 CORS(app)
