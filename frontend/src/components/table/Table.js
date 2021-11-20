@@ -9,6 +9,7 @@ const TableComponent = () => {
   const [el, setEl] = useState({});
   const [onSort, setOnSort] = useState(false);
   const [property, setProperty] = useState("");
+  const [tableFilter, setTableFilter] = useState("");
 
   useEffect(() => {
     axios
@@ -47,12 +48,20 @@ const TableComponent = () => {
     setProperty(string);
   };
 
+  const handleFilter = (val) =>{
+    setTableFilter(val);
+
+  }
+
+
   return (
     <div>
+      <p><input value={tableFilter ||""} onChange={(e) => {handleFilter(e.target.value)}} className={style.filter_input} type="text" placeholder="Type anything to filter the table…"/></p>
       {showCards ? (
         <Cards el={el} showTable={showTable} />
       ) : (
-        <table class="rwd-table">
+        <table className={style.rwd_table}>
+          <thead className={style.header}>
           <tr>
             <th className={style.main}>ID</th>
             <th className={style.main} onClick={() => sort("probability")}>
@@ -70,7 +79,10 @@ const TableComponent = () => {
             <th className={style.main}>Action</th>
             <th className={style.main}>Details</th>
           </tr>
-          {data.map((el) => {
+          </thead>
+          <tbody>
+          
+          {data.filter(d => Object.values(d).filter(v => !v.startsWith("ga")).some(c => c.includes(tableFilter))).map((el) => {
             return (
               <tr key={el.probability} className={style.onMouseEnter}>
                 <th>{el.id}</th>
@@ -79,11 +91,11 @@ const TableComponent = () => {
                 <th>{el.loading}</th>
                 <th>{el.speed}</th>
                 <th>
-                  <button className={style.button}>Agree</button>
+                  <button className={style.button_action}>Agree</button>
                 </th>
                 <th>
                   <button
-                    className={style.button}
+                    className={style.button_details}
                     onClick={() => getDetails(el)}
                   >
                     Details
@@ -92,6 +104,7 @@ const TableComponent = () => {
               </tr>
             );
           })}
+          </tbody>
         </table>
       )}
     </div>
