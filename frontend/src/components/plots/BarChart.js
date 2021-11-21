@@ -13,21 +13,12 @@ class BarChart extends React.Component {
   render() {
     return (
       <Plot
-        data={[
-          {
-            type: "bar",
-            x: ["manual check"],
-            y: [1400],
-            name: "Without our solution",
-          },
-          {
-            type: "bar",
-            x: ["our solution"],
-            y: [700],
-            name: "With our solution",
-          },
-        ]}
-        layout={{ width: 640, height: 480, title: "Some made-up stats" }}
+        data={this.props.data}
+        layout={{
+          width: 640,
+          height: 480,
+          title: "SHAP values of the ML model",
+        }}
       />
     );
   }
