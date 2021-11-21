@@ -7,7 +7,7 @@ import ReactTooltip from "react-tooltip";
 
 import Button from "react-bootstrap/Button";
 
-import ClickModal from "../ClickModal";
+//import ClickModal from "../ClickModal";
 
 const TableComponent = () => {
   const [data, setData] = useState([]);
@@ -24,6 +24,8 @@ const TableComponent = () => {
       setData(res.data);
     });
   }, []);
+
+
 
   const getDetails = (el) => {
     setShowCards(true);
@@ -49,9 +51,6 @@ const TableComponent = () => {
     }
   }, [onSort]);
 
-  useEffect(() => {
-    console.log(modalEnabled);
-  }, [modalEnabled]);
 
   const showTable = () => setShowCards(false);
 
@@ -67,6 +66,11 @@ const TableComponent = () => {
   const handleModalClose = () => {
     setModalEnabled(false);
   };
+
+  const handleModalOpen = React.useCallback(() => {
+    if(modalEnabled === false) { setModalEnabled(true) }
+   }, [modalEnabled]);
+
 
   return (
     <div>
@@ -138,7 +142,7 @@ const TableComponent = () => {
               .map((el, i) => {
                 return (
                   <tr
-                    key={el.probability}
+                    key={el.probability+Math.random()}
                     className={style.onMouseEnter}
                     style={{ background: i % 2 !== 0 ? "#f5f3e6" : "white" }}
                   >
@@ -150,19 +154,23 @@ const TableComponent = () => {
                       {Number(el.probability).toFixed(2)}
                     </td>
                     <td>
+                      {
+                        /*
                       <ClickModal
                         enabled={modalEnabled}
                         handleClose={handleModalClose}
                       />
+                      */
+              }
                       <Button
                         variant="success"
-                        onClick={() => setModalEnabled(true)}
+                      //  onClick={() => handleModalOpen}
                       >
                         Accept
                       </Button>{" "}
                       <Button
                         variant="warning"
-                        onClick={() => setModalEnabled(true)}
+                       // onClick={() => handleModalOpen}
                       >
                         Cancel
                       </Button>

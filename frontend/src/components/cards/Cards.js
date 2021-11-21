@@ -8,7 +8,6 @@ import Button from "react-bootstrap/Button";
 import BarChart from "../plots/BarChart";
 import PieChart from "../plots/PieChart";
 import TraceChart from "../plots/TraceChart";
-import { plot } from "plotly.js";
 
 const Cards = ({ el, showTable }) => {
   const plot_data = el["shap_vals_plot"];
@@ -22,7 +21,8 @@ const Cards = ({ el, showTable }) => {
 
   const shap_explanation = el["shap_inter_str"];
 
-  const bar_chart_data = plot_x.map((x, i) => {
+  const bar_chart_data = React.useMemo(
+    () => plot_x.map((x, i) => {
     return {
       type: "bar",
       x: x,
@@ -32,7 +32,8 @@ const Cards = ({ el, showTable }) => {
         color: plot_colors_modified[i],
       },
     };
-  });
+  })
+  );
 
   return (
     <div className={style.flex}>
