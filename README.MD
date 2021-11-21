@@ -1,10 +1,10 @@
-##Junction2021 CreativeNet
+## Junction2021 CreativeNet
 Project in track Sky(scrapper) is the limit CGI KONE. 
 It solves problems
 - prediction positive feedback of equipment based on Machine Learning model (`models)
 - interpretation each model predict by SHAP values (`models)
 - web app for techinicial for operating monitoring and planning (`frontend`)
-  - REST API (`backend`)
+- REST API (`backend`)
 - geospatial representation of sensors calls density (`frontend`)
 
 Demo version is deployed at 
