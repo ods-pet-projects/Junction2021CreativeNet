@@ -2,31 +2,36 @@ import "./App.css";
 import Footer from "./components/footer/Footer";
 import Table from "./components/table/Table";
 
-
 import IntroModal from "./components/IntroModal";
 
-import 'bootstrap/dist/css/bootstrap.css';
+import "bootstrap/dist/css/bootstrap.css";
 
-import FullheightIframeMap from './components/Mapiframe'
+import FullheightIframeMap from "./components/Mapiframe";
 
 function App() {
   return (
     <div className="App">
-      
       <header className="App-header">
-        <a style={{marginTop: "1rem"}} href="/"><img src="/logo.jpg" alt="CreativeNet: ML based optimiser for lift repair works" /></a>
+        <a style={{ marginTop: "1rem" }} href="/">
+          <img
+            src="/logo.jpg"
+            alt="CreativeNet: ML based optimiser for lift repair works"
+          />
+        </a>
         <p>
-        <IntroModal />
+          <IntroModal />
         </p>
       </header>
 
-      <div>      
+      <div>
         <FullheightIframeMap />
-      
-
 
         <h2>Service repair recommendation evaluations</h2>
-        <p>This table presents the outcome of our analysis. The field "Positive feedback" is evaluation by our ML algorithm. You can also sort the table by clicking on field names.</p>
+        <p>
+          This table presents the outcome of our analysis. The field "Positive
+          feedback" is evaluation by our ML algorithm. You can also sort the
+          table by clicking on field names.
+        </p>
         <Table />
       </div>
 
