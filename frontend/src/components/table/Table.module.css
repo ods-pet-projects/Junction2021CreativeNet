@@ -110,6 +110,7 @@
 .rwd_table {
   margin: auto;
   margin-bottom: 3rem;
+  max-width: 98%;
 }
 
 .rwd_table td {

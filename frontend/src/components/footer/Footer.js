@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <footer>
-        <p>Copyright &copy; 2021 All Rights Reserved.</p>
+        <p> &copy; 2021. Team CreativeNet for Junction hackathon.</p>
       </footer>
     </div>
   );

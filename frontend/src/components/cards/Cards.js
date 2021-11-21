@@ -3,6 +3,8 @@ import img from "./../../images/download.png";
 import style from "./Cards.module.css";
 import dataImg from "./../../images/photo_2021-11-20_17-45-48.jpg";
 
+import Button from 'react-bootstrap/Button'
+
 const Cards = ({ el, showTable }) => {
   return (
     <div className={style.flex}>
@@ -37,9 +39,7 @@ const Cards = ({ el, showTable }) => {
             </p>
           </div>
 
-          <button onClick={showTable} className={style.button}>
-            Go back
-          </button>
+          <Button onClick={showTable} variant="primary">Go back</Button>
         </div>
       </div>
       <div className={style.cardImg}>
