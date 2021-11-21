@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       
       <header className="App-header">
-        <a href="/"><img src="/logo.png" alt="CreativeNet: ML based optimiser for lift repair works" /></a>
+        <a style={{marginTop: "1rem"}} href="/"><img src="/logo.jpg" alt="CreativeNet: ML based optimiser for lift repair works" /></a>
         <p>
         <IntroModal />
         </p>

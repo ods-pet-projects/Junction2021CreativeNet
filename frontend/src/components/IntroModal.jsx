@@ -26,7 +26,7 @@ function IntroModal() {
             <li style={{listStyleType: "none!important"}}>
             ⚬ <b>details pages explaining our recommendation assessments individually</b> - you can click "Get details" on any of the table rows and reach a page with a more detailed explanation of how our assessment was reached.
             </li>    
-            </ul></div>],
+            </ul><p>We hope this can make repairs much more efficient, saving resources and increasing the safety and well-being of a subset of the 1 billion people using KONE elevators!</p></div>],
     ]
   
     return (
