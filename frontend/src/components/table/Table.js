@@ -7,6 +7,8 @@ import ReactTooltip from 'react-tooltip';
 
 import Button from 'react-bootstrap/Button'
 
+import ClickModal from "../ClickModal"
+
 const TableComponent = () => {
   const [data, setData] = useState([]);
   const [showCards, setShowCards] = useState(false);
@@ -14,6 +16,8 @@ const TableComponent = () => {
   const [onSort, setOnSort] = useState(false);
   const [property, setProperty] = useState("");
   const [tableFilter, setTableFilter] = useState("");
+
+  const [modalEnabled, setModalEnabled] = useState(false);
 
   useEffect(() => {
     axios
@@ -45,6 +49,13 @@ const TableComponent = () => {
     }
   }, [onSort]);
 
+
+  useEffect(() => {
+   console.log(modalEnabled);
+  }, [modalEnabled]);
+
+
+
   const showTable = () => setShowCards(false);
 
   const sort = (string) => {
@@ -56,6 +67,8 @@ const TableComponent = () => {
     setTableFilter(val);
 
   }
+
+  const handleModalClose = () => { setModalEnabled(false); } 
 
 
   return (
@@ -107,8 +120,9 @@ const TableComponent = () => {
 <td>{el.speed}</td>
 <td className={style.priority_score}>{Number(el.probability).toFixed(2)}</td>
 <td>
-<Button variant="success">Accept</Button> {" "}
-<Button variant="warning">Cancel</Button>
+<ClickModal enabled={modalEnabled} handleClose={handleModalClose} />
+<Button variant="success" onClick={() => setModalEnabled(true)}>Accept</Button> {" "}
+<Button variant="warning" onClick={() => setModalEnabled(true)}>Cancel</Button>
 </td>
 <td>
   <Button variant="primary" onClick={() => getDetails(el)}>Get details</Button>

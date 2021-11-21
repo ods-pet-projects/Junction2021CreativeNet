@@ -1,9 +1,7 @@
 import "./App.css";
-import BarChart from "./components/BarChart";
 import Footer from "./components/footer/Footer";
-import PieChart from "./components/PieChart";
 import Table from "./components/table/Table";
-import TraceChart from "./components/TraceChart";
+
 
 import IntroModal from "./components/IntroModal";
 
@@ -27,8 +25,8 @@ function App() {
       
 
 
-        <h2>Table of service repair recommendation evaluations</h2>
-        <p>Here we present the outcome of our algorithm. The field "Positive feedback" is evaluation by our ML algorithm. You can also sort the table by clicking on field names.</p>
+        <h2>Service repair recommendation evaluations</h2>
+        <p>This table presents the outcome of our analysis. The field "Positive feedback" is evaluation by our ML algorithm. You can also sort the table by clicking on field names.</p>
         <Table />
       </div>
 
