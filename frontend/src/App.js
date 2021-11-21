@@ -1,18 +1,32 @@
 import "./App.css";
-import BarChart from "./components/BarChart";
 import Footer from "./components/footer/Footer";
-import PieChart from "./components/PieChart";
 import Table from "./components/table/Table";
-import TraceChart from "./components/TraceChart";
+
+
+import IntroModal from "./components/IntroModal";
+
+import 'bootstrap/dist/css/bootstrap.css';
+
+import FullheightIframeMap from './components/Mapiframe'
 
 function App() {
   return (
     <div className="App">
+      
       <header className="App-header">
-        <a href="/"><img src="/logo.png" alt="CreativeNet: ML based optimiser for lift repair works" /></a>
+        <a style={{marginTop: "1rem"}} href="/"><img src="/logo.jpg" alt="CreativeNet: ML based optimiser for lift repair works" /></a>
+        <p>
+        <IntroModal />
+        </p>
       </header>
 
-      <div>
+      <div>      
+        <FullheightIframeMap />
+      
+
+
+        <h2>Service repair recommendation evaluations</h2>
+        <p>This table presents the outcome of our analysis. The field "Positive feedback" is evaluation by our ML algorithm. You can also sort the table by clicking on field names.</p>
         <Table />
       </div>
 
