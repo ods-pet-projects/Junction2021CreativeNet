@@ -46,17 +46,22 @@ def get_queries():
             'equipment_area',
             'speed_category',
             'shap_vals_plot',
-            'shap_inter_str']
+            'shap_inter_str'
+            ]
 
     rename_dict = {
         'equipment_id': 'id',
         'action_recommendation_type': 'action_type',
         'load_category': 'loading',
         'equipment_area': 'area_id',
-        'speed_category': 'spped'
+        'speed_category': 'speed'
     }
 
     df_pred = df_pred[cols]
+    for c in cols:
+        if c != 'shap_vals_plot':
+            df_pred[c] = df_pred[c].astype(str)
+
     df_pred.rename(columns=rename_dict, inplace=True)
     rows = dataframe_to_json(df_pred)
     return jsonify(rows)
