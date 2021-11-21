@@ -25,8 +25,6 @@ const TableComponent = () => {
     });
   }, []);
 
-
-
   const getDetails = (el) => {
     setShowCards(true);
     setEl(el);
@@ -51,7 +49,6 @@ const TableComponent = () => {
     }
   }, [onSort]);
 
-
   const showTable = () => setShowCards(false);
 
   const sort = (string) => {
@@ -68,9 +65,10 @@ const TableComponent = () => {
   };
 
   const handleModalOpen = React.useCallback(() => {
-    if(modalEnabled === false) { setModalEnabled(true) }
-   }, [modalEnabled]);
-
+    if (modalEnabled === false) {
+      setModalEnabled(true);
+    }
+  }, [modalEnabled]);
 
   return (
     <div>
@@ -142,7 +140,7 @@ const TableComponent = () => {
               .map((el, i) => {
                 return (
                   <tr
-                    key={el.probability+Math.random()}
+                    key={el.probability + Math.random()}
                     className={style.onMouseEnter}
                     style={{ background: i % 2 !== 0 ? "#f5f3e6" : "white" }}
                   >
@@ -154,23 +152,23 @@ const TableComponent = () => {
                       {Number(el.probability).toFixed(2)}
                     </td>
                     <td>
-                      {
-                        /*
+                      {/*
                       <ClickModal
                         enabled={modalEnabled}
                         handleClose={handleModalClose}
                       />
-                      */
-              }
+                      */}
                       <Button
                         variant="success"
-                      //  onClick={() => handleModalOpen}
+                        onClick={() => alert("Your order was accepted")}
                       >
                         Accept
                       </Button>{" "}
                       <Button
                         variant="warning"
-                       // onClick={() => handleModalOpen}
+                        onClick={() => {
+                          alert("Your order was canceled");
+                        }}
                       >
                         Cancel
                       </Button>
