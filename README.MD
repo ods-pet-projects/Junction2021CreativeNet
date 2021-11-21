@@ -9,6 +9,6 @@ It solves problems
 
 Demo version is deployed at 
 + http://51.250.17.189:8000
-_ http://51.250.17.189:25000/api/get_queries
++ http://51.250.17.189:25000/api/get_queries
 Feel free to contact
 Sincerely, Team CreativeNet
