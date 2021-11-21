@@ -37,6 +37,7 @@ def get_queries():
 
     df_pred = pd.read_csv(f'{kone_dir}/train_predicted_add_300.csv')
     df_pred['shap_vals_plot'] = df_pred['shap_vals_plot'].apply(json.loads)
+
     cols = ['equipment_id',
             'probability',
             'action_recommendation_type',
@@ -47,7 +48,16 @@ def get_queries():
             'shap_vals_plot',
             'shap_inter_str']
 
+    rename_dict = {
+        'equipment_id': 'id',
+        'action_recommendation_type': 'action_type',
+        'load_category': 'loading',
+        'equipment_area': 'area_id',
+        'speed_category': 'spped'
+    }
+
     df_pred = df_pred[cols]
+    df_pred.rename(columns=rename_dict, inplace=True)
     rows = dataframe_to_json(df_pred)
     return jsonify(rows)
 
