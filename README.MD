@@ -1,5 +1,5 @@
 ## Junction2021 CreativeNet
-Project in track Sky(scrapper) is the limit CGI KONE. 
+Project in track Sky(scraper) is the limit CGI KONE. 
 It solves problems
 - prediction positive feedback of equipment based on Machine Learning model (`models)
 - interpretation each model predict by SHAP values (`models)
